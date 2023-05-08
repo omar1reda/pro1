@@ -1,0 +1,516 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clr {
+  clear: both;
+}
+
+li {
+  list-style: none;
+}
+/* Home styling */
+#home {
+  height: 100vh;
+  background-image: url("images/drew-coffman-1872.jpg");
+  background-size: 100% 147%;
+  background-position: center center;
+  text-align: center;
+}
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title1,
+.wlcm,
+.description1,
+.btns {
+  /* margin: 20px; */
+  color: white;
+}
+
+.wlcm {
+  color: #ccc;
+  padding-top: 9.5%;
+  font-size: 24px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.title1 {
+  margin: 50px 0px 37px 0px;
+  font-size: 70px;
+}
+
+.description1 {
+  margin-bottom: 27px;
+  color: #ccc;
+  font-size: 24px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.btn1,
+.btn2 {
+  padding: 15px 20px;
+  margin: 3.6% 0.45% 9% auto;
+  font-size: 16px;
+}
+
+.btn1 {
+  border: none;
+  background-color: #8e7754;
+  color: white;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+.btn2 {
+  border: 2px white solid;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+.scroll {
+  display: inline-block;
+  margin-top: 0.1vh;
+  text-decoration: none;
+  color: whitesmoke;
+  border: 2px whitesmoke solid;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+/* Section 1 styling */
+
+#sec1 {
+  margin: 50px auto;
+  width: 90vw;
+}
+
+.container1 {
+  /* margin: 0px auto; */
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.image1 {
+  width: 50%;
+  margin-right: 0px;
+  text-align: center;
+  float: left;
+}
+
+.img1 {
+  width: 95%;
+  /* height: 100%; */
+}
+
+.sec1-content {
+  width: 45%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.title2,
+.description2 {
+  text-align: center;
+}
+
+.description2 {
+  width: 100%;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: gray;
+  margin: 0px auto 20px 0px;
+  line-height: 1.86em;
+}
+
+.title2 {
+  margin-bottom: 40px;
+}
+
+.li-icon1,
+.li-text {
+  list-style: none;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  color: #8e7754;
+  /* text-align: center; */
+}
+
+.icon1,
+.text {
+  float: left;
+  margin-top: 8px;
+}
+
+.li-text {
+  margin-bottom: 45.5px;
+  color: #686868;
+  font-size: 18px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.li-icon1 {
+  border: 1px #8e7754 solid;
+  padding: 5px 6px 3px 6px;
+  border-radius: 25px;
+}
+
+/* Section 2 styling */
+
+#sec2 {
+  margin: 50px auto;
+  background-color: #f8f8f8;
+}
+
+.image2 {
+  margin: 50px auto;
+  width: 50%;
+  float: right;
+}
+
+.img2 {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.sec2-content {
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.container2 {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.title3 {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.description3 {
+  width: 100%;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: gray;
+  margin: 0px auto 20px 0px;
+  line-height: 1.86em;
+}
+
+/* Section 3 styling */
+
+#sec3 {
+  margin: 50px auto;
+}
+
+.titles {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title4 {
+  margin-bottom: 30px;
+}
+
+.description4 {
+  width: 100%;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: gray;
+  margin: 0px auto 20px 0px;
+}
+
+.product {
+  width: 25%;
+  text-align: center;
+  float: left;
+  margin-left: 5.6%;
+}
+
+.prod-title {
+  margin: 15px auto;
+}
+
+.prod-description {
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  color: gray;
+  padding: 0px 5px;
+  line-height: 1.86em;
+}
+
+.prod-img {
+  width: 110%;
+}
+
+/* Section 4 styling */
+
+.container4 {
+  margin: auto 5%;
+}
+
+.li-icon2 {
+  margin-bottom: 20px;
+  border: 1px #8e7754 solid;
+  padding: 5px 6px 3px 6px;
+  border-radius: 25px;
+  background-color: #8e7754;
+  color: white;
+}
+
+.li-text2 {
+  margin-bottom: 40.5px;
+  color: #686868;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+.icons-list,
+.texts-list {
+  float: left;
+}
+.texts-list {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.title5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.description5 {
+  line-height: 1.86em;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  color: #686868;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.list-title {
+  margin: 30px 0px;
+  color: #686868;
+  font-size: 16px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.sec4-content {
+  width: 60%;
+  float: left;
+}
+
+.mark {
+  width: 5%;
+  height: 9%;
+  margin-left: 53%;
+  margin-top: 16.8%;
+}
+
+.map {
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  background-image: url("images/contact-details-map.png");
+  background-size: 100% 100%;
+  float: left;
+}
+
+/* footer styling */
+
+#footer {
+  height: 80vh;
+}
+
+/* Top footer */
+
+.top-footer {
+  padding: 40px 4.4%;
+  background-color: #403d38;
+  height: 64vh;
+}
+
+.about_us,
+.opening_hours,
+.why_we_are_special,
+.contact_details {
+  width: 23%;
+  float: left;
+  margin-left: 0.9%;
+}
+/* about us */
+.about_us-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about_us-paragraph {
+  font-size: 18px;
+  color: #969696;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+/* Why we are special */
+.why_we_are_special {
+  background-color: #403d38;
+}
+
+.why_we_are_special-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.why_we_are_special-list {
+  width: 100%;
+}
+.why_we_are_special-li {
+  border-bottom: 1px solid #303030;
+  margin-bottom: 6px;
+  padding: 6px 0px;
+  width: 100%;
+}
+
+.arrow {
+  color: #969696;
+  border: none;
+  background-color: #403d38;
+}
+
+.why_we_are_special-list-text {
+  font-size: 23px;
+  color: #969696;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+/* Opening Hours */
+.opening_hours-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.opening_hours-li {
+  border-bottom: 1px solid #303030;
+  padding: 6px 0px;
+  margin-bottom: 6px;
+}
+
+.opening_hours-text {
+  font-size: 23px;
+  color: #969696;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+/* Contact Details */
+.contact_details-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact_details-li {
+  border-bottom: 1px solid #303030;
+  padding: 6px 0px;
+  margin-bottom: 6px;
+}
+
+.contact_details-text {
+  font-size: 23px;
+  color: #969696;
+  padding-bottom: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact_details-text:hover {
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.phone_icon,
+.mail_icon,
+.web_icon,
+.location_mark {
+  color: #969696;
+  margin-right: 8px;
+}
+
+/* Bottom footer */
+
+.bottom-footer {
+  background-color: #353330;
+  height: 30vh;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.bottom-logo {
+  margin-bottom: 15px;
+}
+
+.copy-right {
+  color: #969696;
+  margin-bottom: 20px;
+}
+
+.account {
+  padding: 10px 10px 10px 14px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #484540;
+  color: #8c8a86;
+  margin-left: 5px;
+}
+
+.facebook-icon:hover {
+  background-color: blue;
+  color: white;
+}
+
+.google-icon:hover {
+  background-color: red;
+  color: white;
+}
+
+.linkedin-icon:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.twitter-icon:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+.twitter-icon {
+  padding: 10px 10px 10px 12px;
+}
